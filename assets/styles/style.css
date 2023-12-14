@@ -1,4 +1,54 @@
 *{
     font-family: 'Outfit', sans-serif;
-    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 15px;
+    overflow: hidden;
+}
+body .app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background:  hsl(212, 45%, 89%);
+}
+.app .card{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    background:  hsl(0, 0%, 100%);
+    padding: 1.2rem;
+    border-radius: 15px;
+}
+.app .card .qr_display{
+    overflow: hidden;
+    border-radius: 15px;
+
+}
+.app .card .qr_display img{
+    width: 100%
+}
+.app .card .qr_text {
+    padding: 20px;
+
+}
+.app .card .qr_text h1{
+    padding: 1rem 0px;
+    font-size: 1.7rem;
+    line-height: 2.3rem;
+    text-align: center;
+    color:  hsl(218, 44%, 22%);
+}
+.app .card .qr_text p{
+    text-align: center;
+    font-size:1.2rem;
+    padding: 0px 4px 0px 4px;
+    word-wrap: break-word;
+    color: hsl(220, 15%, 55%)
 }
